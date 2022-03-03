@@ -2,7 +2,13 @@
 const randomNumber = Math.round(Math.random() * 10);
 
 // ****************************************************TASK 1****************************************************
+let count = 1;
 
+while (count <= 10) {
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log(randomNumber);
+    count++;
+}
 
 
 
@@ -18,6 +24,10 @@ const randomNumber = Math.round(Math.random() * 10);
 
 
 // ****************************************************TASK 2****************************************************
+for (let count = 1; count <= 10; count++) {
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log(randomNumber);
+}
 
 
 
